@@ -2,7 +2,7 @@ using System.ComponentModel;
 
 namespace Y22.Day01;
 
-[Description("Day 1 - Calorie Counting")]
+[Description("Day 1: Calorie Counting")]
 public class Puzzle : IPuzzleSolver
 {
     public bool UseSampleData { get; set; }
