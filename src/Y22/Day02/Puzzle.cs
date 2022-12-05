@@ -29,7 +29,7 @@ public class Puzzle : IPuzzleSolver
         return $"{result}";
     }
 
-    [Description("Part 2 - Find the top three Elves carrying the most Calories. How many Calories are those Elves carrying in total?")]
+    [Description("Part 2 - What would your total score be if everything goes exactly according to your new strategy guide?")]
     public string SolvePart2()
     {
         var scoreMap = new Dictionary<string, int>()
@@ -56,7 +56,7 @@ public class Puzzle : IPuzzleSolver
     {
         Console.WriteLine("Day 2: Rock Paper Scissors");
         Console.WriteLine($"Part 1 - What would your total score be if everything goes exactly according to your strategy guide? {SolvePart1()}");
-        Console.WriteLine($"Part 2 - What would your total score be if everything goes exactly according to your strategy guide? {SolvePart2()}");
+        Console.WriteLine($"Part 2 - What would your total score be if everything goes exactly according to your new strategy guide? {SolvePart2()}");
         Console.WriteLine();
     }
 }
