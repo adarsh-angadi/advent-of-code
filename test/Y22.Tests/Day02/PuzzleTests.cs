@@ -1,14 +1,14 @@
-namespace Y22.Tests.Day01;
+namespace Y22.Tests.Day02;
 
 public class PuzzleTests
 {
     [Theory]
-    [InlineData(true, "24000", "45000")]
-    [InlineData(false, "68467", "203420")]
-    public void Day01_Test(bool useSampleData, string expectedSolutionPart1, string expectedSolutionPart2)
+    [InlineData(true, "15", "12")]
+    [InlineData(false, "14531", "11258")]
+    public void Day02_Test(bool useSampleData, string expectedSolutionPart1, string expectedSolutionPart2)
     {
         // Arrange
-        var puzzle = new Y22.Day01.Puzzle
+        var puzzle = new Y22.Day02.Puzzle
         {
             UseSampleData = useSampleData
         };
